@@ -3,12 +3,14 @@
 
 <head>
     <% include head.ejs %>
+    <% include tail.ejs %>
 </head>
 
 <body>
-    <link rel='stylesheet' href='/stylesheets/home.css' />
+  <link rel='stylesheet' href='/stylesheets/home.css' />
+  <div class='container'>
 
-    <div id='home' class="container main" style='display:block' >
+    <div id='home' class="main" style='display:block' >
       <div class="row">
         <div class="col s12">
           <div class=" z-depth-4 card-panel blue-grey">
@@ -36,11 +38,11 @@
     <% include team.ejs %>
     <% include sponsor.ejs %>
 
+  </div>
+
     
   
     <!-- TODO: FOOTER  -->
-
-    <% include tail.ejs %>
 </body>
 <script src='/javascript/home.js'></script>
 
