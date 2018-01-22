@@ -1,12 +1,13 @@
 body {
     background-image: Url('/images/mainbg.jpg');
-    background-color: #000000;
+    background-color: #FFFFFF;
  }
 
  .colorscheme1 {
     background-color:#0288D1;
     color:white;
  }
+<<<<<<< HEAD
 
  .accentColor{
     background-color:#607D8B;
@@ -62,3 +63,6 @@ body {
     transition: opacity .2s;
     z-index: -1;
 }
+ .carousel {
+ min-height: 900px;
+ }
