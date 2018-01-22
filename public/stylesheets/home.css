@@ -1,0 +1,9 @@
+body {
+    background-image: Url('/images/mainbg.jpg');
+    background-color: #000000;
+ }
+
+ .colorscheme1 {
+    background-color:#0288D1;
+    color:white;
+ }

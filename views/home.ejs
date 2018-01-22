@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <% include head.ejs %>
+</head>
+
+<body>
+    <link rel='stylesheet' href='/stylesheets/home.css' />
+
+    <div id='home' class="container main" style='display:block' >
+      <div class="row">
+        <div class="col s12">
+          <div class=" z-depth-4 card-panel blue-grey">
+            <h1 style='color:white' align='center'>General Dynamics Mission Systems
+              Stevens Senior Design Team
+            </h1>
+            <h5 style='color:white' align='center' >2018</h5> 
+          </div>
+        </div>
+        <div class='col s3'></div>
+        <div style='text-align:center' class="col s2">
+          <a  onclick='openProject()' class="z-depth-4 waves-effect waves-light btn-large colorscheme1" >project</a>
+        </div>
+        <div style='text-align:center' class="col s2">
+          <a onclick='openTeam()' class="z-depth-4 waves-effect waves-light btn-large colorscheme1">team</a>
+        </div>
+        <div style='text-align:center' class="col s2">
+          <a onclick='openSponsor()' class="z-depth-4 waves-effect waves-light btn-large colorscheme1">sponsor</a>
+        </div>
+        <div class='col s3'></div>
+      </div>
+    </div>
+
+    <div id='project' class="container main" style='display:none' >
+      <% include navbar.ejs %>
+    </div>
+
+    <div id='team' class="container main" style='display:none'>
+      <% include navbar.ejs %>
+    </div>
+
+    <div id='sponsor' class="container main" style='display:none' >
+      <% include navbar.ejs %>
+    </div>
+  
+    <!-- TODO: FOOTER  -->
+
+    <% include tail.ejs %>
+</body>
+<script src='/javascript/home.js'></script>
+
+</html>
