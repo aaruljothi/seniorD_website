@@ -1,9 +1,12 @@
 body {
     background-image: Url('/images/mainbg.jpg');
-    background-color: #000000;
+    background-color: #FFFFFF;
  }
 
  .colorscheme1 {
     background-color:#0288D1;
     color:white;
+ }
+ .carousel {
+ min-height: 900px;
  }
