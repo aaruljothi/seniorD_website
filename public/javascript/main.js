@@ -42,7 +42,6 @@ function showSponsor(){
     $('.nav-item').removeClass('active');
     $('#SponsorLink').addClass('active');
     fadeShow('#sponsor')
-    $('body').attr('style', "background-image: Url(''); background-color: #607D8B")
 
 }
 
@@ -50,12 +49,10 @@ function showTeam(){
     $('.nav-item').removeClass('active');
     $('#TeamLink').addClass('active');
     fadeShow('#team')
-    $('body').attr('style', "background-image: Url(''); background-color: #607D8B")
 }
 
 function showProject(){
     $('.nav-item').removeClass('active');
     $('#ProjectLink').addClass('active');
     fadeShow('#project')
-    $('body').attr('style', "background-image: Url(''); background-color: #607D8B")
 }
