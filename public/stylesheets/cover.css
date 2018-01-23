@@ -37,10 +37,20 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-image: Url('/images/bg-comp.jpg');
-  background-repeat: no-repeat;
+  transition: background 1s ease;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
   background-color: #333;
+}
+
+body.bg1{
+  background-image: Url('/images/cover/cover1.jpg');
+}
+
+body.bg2{
+  background-image: Url('/images/cover/cover2.jpg');
 }
 
 body {
@@ -79,3 +89,32 @@ body {
 .mastfoot {
   color: rgba(255, 255, 255, .5);
 }
+
+
+/* .carousel { z-index: -99; } 
+.carousel .item {
+    position: fixed; 
+    width: 100%; height: 100%;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+
+}
+.carousel .one {
+    background: url('/images/cover/cover1.jpg');
+    background-size: cover;
+    -moz-background-size: cover;
+}
+.carousel .two {
+    background: url('/images/cover/cover2.jpg');
+    background-size: cover;
+    -moz-background-size: cover;
+}
+
+.carousel .active.left {
+    left:0;
+    opacity:0;
+    z-index:2;
+} */
