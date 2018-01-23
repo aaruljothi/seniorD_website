@@ -2,12 +2,12 @@ var express = require('express');
 var router = express.Router();
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('home', { title: 'GDMS Senior D Team' });
+router.get('/pages', function(req, res, next) {
+  res.render('index', { title: 'Aerial Spectrum Mapping' });
 });
 
-router.get('/index', function(req, res, next) {
-  res.render('index', { title: 'GDMS Senior D Team' });
+router.get('/', function(req, res, next) {
+  res.render('cover', { title: 'Aerial Spectrum Mapping' });
 });
 
 module.exports = router;

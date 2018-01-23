@@ -1,10 +1,14 @@
-<nav>
-  <div class="nav-wrapper darkColor">
-    <a onclick="openHome()" class="brand-logo" style='margin-left:10px'>GDMS Team</a>
-    <ul id="nav-mobile" class="right hide-on-med-and-down">
-    <li id='#ProjectLink'><a onclick="openProject()" >Project</a></li>
-    <li id='#TeamLink'><a onclick="openTeam()">Team</a></li>
-    <li id='#SponsorLink'><a onclick="openSponsor()">Sponsor</a></li>
-    </ul>
+
+<nav class="navbar navbar-expand-lg navbar-dark darkColor">
+  <a class="navbar-brand" href="/">Aerial Spectrum Mapping</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a id='ProjectLink' class="nav-item nav-link" onclick="showProject()">project</a>
+      <a id='TeamLink' class="nav-item nav-link" onclick="showTeam()">team</a>
+      <a id='SponsorLink' class="nav-item nav-link" onclick='showSponsor()'>sponsor</a>
+    </div>
   </div>
 </nav>

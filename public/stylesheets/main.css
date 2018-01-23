@@ -1,0 +1,57 @@
+body {
+    
+    background-color: #FFFFFF;
+ }
+
+ /* For buttons and objects */
+ .accentColor{
+    background-color:#607D8B;
+    color:white'
+ }
+
+ .lightColor{
+     background-color: #B3E5FC;
+     color:black;
+ }
+
+ .primaryColor{
+     background-color:#03A9F4;
+     color:white;
+ }
+
+
+.darkColor{
+    background-color: #0288D1;
+    color: white;
+}
+
+.secondaryTextColor{
+    color: #757575;
+}
+
+.dividerColor{
+    background-color: #BDBDBD;
+}
+
+/* For text  */
+.accentColorText{
+    color:#607D8B;
+ }
+
+ .lightColorText{
+     color: #B3E5FC;
+ }
+
+ .primaryColorText{
+     color:#03A9F4;
+ }
+
+
+.darkColorText{
+    color: #0288D1;
+}
+
+.dividerColorText{
+    color: #BDBDBD;
+}
+
