@@ -15,7 +15,7 @@ a:hover {
   color:  #0288D1;
   text-shadow: none; /* Prevent inheritance from `body` */
   background-color: #fff;
-  border: .05rem solid #fff;
+  /* border: .05rem solid #fff; */
 }
 
 .btn-secondary:hover,
@@ -33,7 +33,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-image: Url('/images/mainbg.jpg');
+  background-image: Url('/images/bg-comp.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #333;

@@ -7,7 +7,7 @@
     <% include head.ejs %>
 </head>
 
-<body  class="text-center">
+<body  class="text-center" style="display:none"> 
   <link rel='stylesheet' href='/stylesheets/cover.css' />
   <link rel='stylesheet' href='/stylesheets/main.css' />
 
@@ -20,9 +20,9 @@
       <h1 class="cover-heading">GDMS Aerial Mapping Team</h1>
       <p class="lead">Senior design team at Stevens Institute of Technology working on EM Spectrum Mapping to improve utilization of available EM bands. Sponsored by General Dynamics Mission Systems.</p>
       <p class="lead">
-        <a style='margin-right:.5rem' href="/pages?=project" class="darkColorText btn btn-lg btn-secondary">check out the project</a>
-        <a style='margin-left:.5rem' href="/pages?=team" class="darkColorText btn btn-lg btn-secondary">see who is on the team</a>
-        <a style='margin-top:1rem' href="/pages?=sponsor" class="darkColorText btn btn-lg btn-secondary">learn about the sponsors</a>
+        <button style='margin-right:.5rem' onclick="changePage('project')" class="darkColorText btn btn-lg btn-secondary">check out the project</button>
+        <button style='margin-left:.5rem' onclick="changePage('team')" class="darkColorText btn btn-lg btn-secondary">see who is on the team</button>
+        <button style='margin-top:1rem' onclick="changePage('sponsor')" class="darkColorText btn btn-lg btn-secondary">learn about the sponsors</button>
       </p>
     </main>
 
@@ -37,6 +37,7 @@
   
   <!-- TODO: FOOTER  -->
 </body>
+<script src='/javascript/cover.js'></script>
 <% include tail.ejs %>
 
 </html>

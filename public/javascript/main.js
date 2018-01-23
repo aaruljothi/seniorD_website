@@ -22,16 +22,23 @@ function findShow(){
     }
 }
 
+function goCover(){
+    $('body').fadeOut(400, function(){
+        location.href = '/';
+    });
+}
+
 function fadeShow(newPage){
     if ($('.current').length == 0){
-        $(newPage).fadeIn(400, function(){
+        $('.navbar').fadeIn(600);
+        $(newPage).fadeIn(600, function(){
             $(newPage).addClass('current');
         });
         return;
     }
-    $('.current').fadeOut(200, function(){
+    $('.current').fadeOut(400, function(){
         $('.current').removeClass('current');
-        $(newPage).fadeIn(300, function(){
+        $(newPage).fadeIn(600, function(){
             $(newPage).addClass('current');
         });
     });
