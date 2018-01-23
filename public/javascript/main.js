@@ -1,5 +1,11 @@
 $(document).ready(function () {
     findShow();
+    $('#teamCarousel').on('slide.bs.carousel', function () {
+        $('.page-item').removeClass('active');
+        s = $('#teamCarousel .active').find('.row').attr('id') + 'Page';
+        console.log('#' + s);
+        $('#' + s).addClass('active');
+    })
 });
 
 // use url parameter to find what to show
@@ -63,3 +69,4 @@ function showProject(){
     $('#ProjectLink').addClass('active');
     fadeShow('#project')
 }
+

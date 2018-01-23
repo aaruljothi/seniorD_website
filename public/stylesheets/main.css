@@ -1,6 +1,6 @@
 body {
     
-    background-color: #444444;
+    /* background-color: #444444; */
  }
 
  /* For buttons and objects */
@@ -29,6 +29,10 @@ body {
     color: #757575;
 }
 
+.greyColor{
+    background-color: #444444;
+}
+
 .dividerColor{
     background-color: #BDBDBD;
 }
@@ -55,3 +59,20 @@ body {
     color: #BDBDBD;
 }
 
+.card{
+    -webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
+}
+
+
+
+.page-link{
+    background-color: white !important;
+    color: #0288D1 !important;
+}
+
+.page-link.active{
+    background-color: #0288D1 !important;
+    color: white !important;
+}
