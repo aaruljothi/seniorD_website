@@ -22,32 +22,40 @@ function findShow(){
     }
 }
 
-function hideAll(){
-    $('.main').attr('style', 'display:none');
+function fadeShow(newPage){
+    if ($('.current').length == 0){
+        $(newPage).fadeIn(400, function(){
+            $(newPage).addClass('current');
+        });
+        return;
+    }
+    $('.current').fadeOut(200, function(){
+        $('.current').removeClass('current');
+        $(newPage).fadeIn(300, function(){
+            $(newPage).addClass('current');
+        });
+    });
 }
 
 
 function showSponsor(){
-    hideAll();
     $('.nav-item').removeClass('active');
     $('#SponsorLink').addClass('active');
-    $('#sponsor').attr('style', 'display:block');
-    $('body').attr('style', "background-image: Url(''); background-color: #FFFFFF")
+    fadeShow('#sponsor')
+    $('body').attr('style', "background-image: Url(''); background-color: #607D8B")
 
 }
 
 function showTeam(){
-    hideAll();
     $('.nav-item').removeClass('active');
     $('#TeamLink').addClass('active');
-    $('#team').attr('style',  'display:block');
-    $('body').attr('style', "background-image: Url(''); background-color: #444444")
+    fadeShow('#team')
+    $('body').attr('style', "background-image: Url(''); background-color: #607D8B")
 }
 
 function showProject(){
-    hideAll();
     $('.nav-item').removeClass('active');
     $('#ProjectLink').addClass('active');
-    $('#project').attr('style', 'display:block');
-    $('body').attr('style', "background-image: Url(''); background-color: #999999")
+    fadeShow('#project')
+    $('body').attr('style', "background-image: Url(''); background-color: #607D8B")
 }
