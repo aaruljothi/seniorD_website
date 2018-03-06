@@ -22,7 +22,7 @@ function findShow(){
         case 'sponsor':
             showSponsor();
             break;
-        default: 
+        default:
             showProject();
             break;
     }
@@ -50,7 +50,6 @@ function fadeShow(newPage){
     });
 }
 
-
 function showSponsor(){
     $('.nav-item').removeClass('active');
     $('#SponsorLink').addClass('active');
@@ -69,4 +68,3 @@ function showProject(){
     $('#ProjectLink').addClass('active');
     fadeShow('#project')
 }
-
