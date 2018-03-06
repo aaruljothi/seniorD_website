@@ -1,20 +1,66 @@
 <div id='project' class="container main" style='display:none; margin-top:2rem'>
-    <div class="row">
-        <div class="col-4">
-            <div class="col-12" id="sticky-sidebar">
-                <ul>
-                    <li>
-                        <a>The Problem</a>
-                    </li>
-                    <li>
-                        <a>The Solution</a>
-                    </li>
-                </ul>
-            </div>
+
+  <a href="/downloads/milestone3.pdf">Download the Senior Design report here.<a>
+
+  <div style="margin-top:1rem" id="accordion">
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h5 class="mb-0">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            The Problem
+          </button>
+        </h5>
+      </div>
+
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+        <div class="card-body">
+          The electromagnetic spectrum has become increasingly congested in recent years as the number of interconnected devices has exploded. The current management of the spectrum has many issues and can be improved upon. Companies, such as cellular providers have been worried about running out of spectrum space when using the current management system.
+          General Dynamics Mission Systems has requested a solution to map the dynamic electromagnetic spectrum environment in order to find available white space to transmit on, and use these openings to transmit data without interfering with any other users on the band.
         </div>
-        <div class="col-8" id="mainProject">
-            <h3>THE PROBELM</h3>
-            
-        </div>
+      </div>
     </div>
+    <div class="card">
+      <div class="card-header" id="headingTwo">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Mission Statement
+          </button>
+        </h5>
+      </div>
+      <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordion">
+        <div class="card-body">
+          The GD Spectrum Mapping team’s goal is to take advantage of the many small pockets of unused spectrum that is available in effort to maximize spectrum usage.   Historical data will be collected and used to identify these white spaces. These efforts will increase the number of users that are able to use the electromagnetic spectrum at time.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingThree">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Product Intent
+          </button>
+        </h5>
+      </div>
+      <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordion">
+        <div class="card-body">
+          This product is a system of mapping units designed to make a network. Each unit is a self contained receiver/transmitter that will record historical data on unlicensed frequency bands. The collected data will be used to identify and transmit on the white spaces found in the spectrum. This system will efficiently monitor spectrum usage to transmit without interfering with existing signals. When the frequencies are above or below a certain threshold that will be derived through historical data, we will determine if something is being transmitted on the frequencies, or if they are idle. Each unit will be easily deployable and will withstand its operating environment. This system is intended to be used in General Dynamics communications networks, but can be utilized for other purposes such as in emergency and domestic application.
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingFour">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          Project Scope
+        </button>
+      </h5>
+    </div>
+    <div id="collapseFour" class="collapse show" aria-labelledby="headingFour" data-parent="#accordion">
+      <div class="card-body">
+        The scope of this project is to construct a proof-of-concept device that will be able to be transported into a dynamic environment via UAV. Once the device has been delivered, it will begin to take samples of different frequencies that have been pre-selected and gather data on parameters such as received signal strength, time of day, location, and weather. Once a large amount of data has been recorded, the device will use software to determine the ambient noise levels at the individual frequencies, and from these observations the system will be able to recognize if a signal is being transmitted at that frequency.
+      </div>
+    </div>
+  </div>
+
 </div>
