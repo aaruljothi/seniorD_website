@@ -9,12 +9,20 @@ a:hover {
   color: #444444;
 }
 
+.accentColor{
+  color: #ffbd00 !important;
+}
+body.bg2 .reg{
+  color: #284189 !important;
+}
+
+
 /* Custom default button */
 .btn-secondary,
 .btn-secondary:focus {
-  color:  #0288D1;
+  color:  #ffbd00 !important;
   text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #fff;
+  background-color: #284189 !important;
 
   -webkit-box-shadow: 1px 1px 10px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 1px 1px 10px 0px rgba(0,0,0,0.75);
@@ -24,9 +32,9 @@ a:hover {
 
 .btn-secondary:hover,
 .btn-secondary:active {
-  color:  #fff !important;
+  color:  #284189 !important;
   text-shadow: none; /* Prevent inheritance from `body` */
-  background-color:  #0288D1 !important;
+  background-color:  #ffbd00 !important;
 }
 
 
@@ -66,44 +74,24 @@ body {
 }
 h2.strokeme
 {
-    color: White;
-    text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
+    color: #ffbd00;
     font-size: 32px !important;
     font-weight: bold;
 }
 body.bg2 h2.strokeme {
-    color: black;
-    text-shadow:
-    -1px -1px 0 #FFF,
-    1px -1px 0 #fff,
-    -1px 1px 0 #fff,
-    1px 1px 0 #fff;
+    color: #284189;
     font-size: 32px !important;
     font-weight: bold;
 
 }
 body.bg2 .strokeme
 {
-    color: Black;
-    text-shadow:
-    -1px -1px 0 #fff,
-    1px -1px 0 #fff,
-    -1px 1px 0 #fff,
-    1px 1px 0 #fff;
+    color: #284189;
     font-size: 60px !important;
 }
 .strokeme
 {
-    color: white;
-    text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
+    color: #ffbd00;
     font-size: 60px !important;
 }
 .cover-container {
