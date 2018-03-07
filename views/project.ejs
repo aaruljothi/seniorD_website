@@ -1,66 +1,135 @@
+<script>
+    // $('#progCarousel').on('slide.bs.carousel', function () {
+
+    // })
+    // $('#progCarousel').carousel();
+</script>
 <div id='project' class="container main" style='display:none; margin-top:2rem'>
 
-  <a href="/downloads/milestone3.pdf">Download the Senior Design report here.<a>
+    <main role="main">
 
-  <div style="margin-top:1rem" id="accordion">
-    <div class="card">
-      <div class="card-header" id="headingOne">
-        <h5 class="mb-0">
-          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            The Problem
-          </button>
-        </h5>
-      </div>
 
-      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-        <div class="card-body">
-          The electromagnetic spectrum has become increasingly congested in recent years as the number of interconnected devices has exploded. The current management of the spectrum has many issues and can be improved upon. Companies, such as cellular providers have been worried about running out of spectrum space when using the current management system.
-          General Dynamics Mission Systems has requested a solution to map the dynamic electromagnetic spectrum environment in order to find available white space to transmit on, and use these openings to transmit data without interfering with any other users on the band.
+        <!-- Marketing messaging and featurettes
+              ================================================== -->
+        <!-- Wrap the rest of the page in another container to center all the content. -->
+
+        <div class="container marketing">
+
+            <!-- Three columns of text below the carousel -->
+            <div class="row">
+                <div class='col-sm-12' style="padding-bottom:.5rem">
+                    <h1 class="secondaryTextColor">Mission Statement</h1>
+                    <p class='primaryTextColor' style="font-style:italic">
+                        Eliminate the need to purchase new E.M. bands by more efficient use of exisiting bands.
+                    </p>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <h2 class='secondaryTextColor'>Project<br>Proposal</h2>
+                    <p class="info_h">Learn more about our mission and customer. See their needs and requirements and the concepts to our solutions.
+                    </p>
+                    <p>
+                        <a class="btn btn-secondary" href="https://drive.google.com/open?id=16J103laSFIxSWOxJVnjK12uQlksx72tusdF0g9v3HFg" role="button">View details &raquo;</a>
+                    </p>
+                </div>
+                <!-- /.col-lg-4 -->
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <h2 class='secondaryTextColor'>Preliminary<br>Design</h2>
+                    <p class="info_h">Understand our intial design and the final concept. See our analysis and evaluation of our selected concepts.
+                    </p>
+                    <p>
+                        <a class="btn btn-secondary" href="https://drive.google.com/open?id=1CP7eUCqUzZiIcWiyMioQTMVbz6ULvu4T466vriYD5f8" role="button">View details &raquo;</a>
+                    </p>
+                </div>
+                <!-- /.col-lg-4 -->
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <h2 class='secondaryTextColor'>Performance<br>Cost</h2>
+                    <p class="info_h">
+                        See our performance metrics and total cost of the project. Also presented is the alpha prototype's status.
+                    </p>
+                    <p>
+                        <a class="btn btn-secondary" href="https://drive.google.com/open?id=1EXHrNEjDXwvUDSHjPPw3J1DdNZNOKgf0Y3pAFxrUh6o" role="button">View details &raquo;</a>
+                    </p>
+                </div>
+                <!-- /.col-lg-4 -->
+                <!-- /.col-lg-4 -->
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <h2 class='secondaryTextColor'>Optimized<br>Design</h2>
+                    <p class="info_h">
+                        A review of our final design and the optimizations that lead to it. The beta
+                        prototype will also be discussed, along with modifications completed to the alpha.
+                    </p>
+                    <p>
+                        <a class="btn btn-secondary" href="https://drive.google.com/open?id=1EXHrNEjDXwvUDSHjPPw3J1DdNZNOKgf0Y3pAFxrUh6o" role="button">View details &raquo;</a>
+                    </p>
+                </div>
+            </div>
+            <!-- /.row -->
+
+
+            <!-- START THE FEATURETTES -->
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">The Mapping Unit
+                        <span class="text-muted">It'll blow your mind.</span>
+                    </h2>
+                    <p class="lead">The mapping unit will be used to record current status of a set of E.M. bands. This historical data will
+                        be used to create a model to help predict future status of the bands given enviornment parameters.
+                        This will allow us to predict which bands should be used
+                        <strong>now</strong>. Presented to the right is the mapping unit frame and components.
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <img class="featurette-image img-fluid mx-auto" src="/images/sponsor/enclosure.jpg" alt="Generic placeholder image">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading">The Delivery Unit
+                        <span class="text-muted">Oh yeah, it's that good.</span>
+                    </h2>
+                    <p class="lead">A hexcopter drone will be used to move the mapping unit from location to location. This will allow our 
+                        solution to remain mobile and offer a wider range of usable features. 
+                    </p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img class="featurette-image img-fluid mx-auto" src="/images/sponsor/hexacopter.jpg" alt="Generic placeholder image">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">The Statistical Unit
+                        <span class="text-muted">Checkmate.</span>
+                    </h2>
+                    <p class="lead">A multinomial logistic regression model will be used as the future prediction model. 
+                        The model will use the current second, minute, hour, day and weather conditions as the predictor variables. 
+                        The best band to use will be reported as the predicted variable. 
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <img class="featurette-image img-fluid mx-auto" src="/images/sponsor/stats.png" alt="Generic placeholder image">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <!-- /END THE FEATURETTES -->
+
         </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-header" id="headingTwo">
-        <h5 class="mb-0">
-          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            Mission Statement
-          </button>
-        </h5>
-      </div>
-      <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordion">
-        <div class="card-body">
-          The GD Spectrum Mapping team’s goal is to take advantage of the many small pockets of unused spectrum that is available in effort to maximize spectrum usage.   Historical data will be collected and used to identify these white spaces. These efforts will increase the number of users that are able to use the electromagnetic spectrum at time.
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-header" id="headingThree">
-        <h5 class="mb-0">
-          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            Product Intent
-          </button>
-        </h5>
-      </div>
-      <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordion">
-        <div class="card-body">
-          This product is a system of mapping units designed to make a network. Each unit is a self contained receiver/transmitter that will record historical data on unlicensed frequency bands. The collected data will be used to identify and transmit on the white spaces found in the spectrum. This system will efficiently monitor spectrum usage to transmit without interfering with existing signals. When the frequencies are above or below a certain threshold that will be derived through historical data, we will determine if something is being transmitted on the frequencies, or if they are idle. Each unit will be easily deployable and will withstand its operating environment. This system is intended to be used in General Dynamics communications networks, but can be utilized for other purposes such as in emergency and domestic application.
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-header" id="headingFour">
-      <h5 class="mb-0">
-        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-          Project Scope
-        </button>
-      </h5>
-    </div>
-    <div id="collapseFour" class="collapse show" aria-labelledby="headingFour" data-parent="#accordion">
-      <div class="card-body">
-        The scope of this project is to construct a proof-of-concept device that will be able to be transported into a dynamic environment via UAV. Once the device has been delivered, it will begin to take samples of different frequencies that have been pre-selected and gather data on parameters such as received signal strength, time of day, location, and weather. Once a large amount of data has been recorded, the device will use software to determine the ambient noise levels at the individual frequencies, and from these observations the system will be able to recognize if a signal is being transmitted at that frequency.
-      </div>
-    </div>
-  </div>
+        <!-- /.container -->
+
+
+
+    </main>
+
+
 
 </div>
