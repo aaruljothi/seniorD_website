@@ -17,4 +17,4 @@ Built with **[node js](https://nodejs.org/en/)**
 
 ### Deployment
 
-* Auto deployed to [Heroku](https://www.heroku.com/home) @ **[senior.arunaruljothi.com](senior.arunaruljothi.com)**.
+* Auto deployed to [Heroku](https://www.heroku.com/home) @ **[senior.arunaruljothi.com](https://senior.arunaruljothi.com)**.
