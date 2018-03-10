@@ -61,6 +61,10 @@ body.bg2{
   background-image: Url('/images/cover/cover2.jpg');
 }
 
+body.bg3{
+  background-image: Url('/images/cover/cover1.jpg');
+}
+
 body {
   display: -ms-flexbox;
   display: -webkit-box;
