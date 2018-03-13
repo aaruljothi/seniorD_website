@@ -1,20 +1,22 @@
-# Senior Design Website
 
-Built with **[node js](https://nodejs.org/en/)**
+Project has been moved to: **[ a static website](https://github.com/aaruljothi/sdWebsite)**.
+# ~~Senior Design Website~~
 
-### Frameworks
+~~Built with **[node js](https://nodejs.org/en/)**~~
 
-* [Express Js](https://expressjs.com/)
-* [Bootstrap 4](https://v4-alpha.getbootstrap.com/)
+### ~~Frameworks~~
 
-### Libraries & Tools
+* ~~[Express Js](https://expressjs.com/)~~
+* ~~[Bootstrap 4](https://v4-alpha.getbootstrap.com/)~~
 
-* This super nifty css animation [library](https://daneden.github.io/animate.css/)
-* How to get that perfect [shadow](https://www.cssmatic.com/box-shadow)
+### ~~Libraries & Tools~~
+
+* ~~This super nifty css animation [library](https://daneden.github.io/animate.css/)~~
+* ~~How to get that perfect [shadow](https://www.cssmatic.com/box-shadow)
 * Where I found my [color scheme](http://blog.visme.co/website-color-schemes/)
-* To keep the app awake: [kaffine](http://kaffeine.herokuapp.com/)
+* To keep the app awake: [kaffine](http://kaffeine.herokuapp.com/)~~
 
 
-### Deployment
+### ~~Deployment~~
 
-* Auto deployed to [Heroku](https://www.heroku.com/home) @ **[senior.arunaruljothi.com](https://senior.arunaruljothi.com)**.
+* ~~Auto deployed to [Heroku](https://www.heroku.com/home) @ **[senior.arunaruljothi.com](https://senior.arunaruljothi.com)**~~.
