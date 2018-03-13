@@ -12,9 +12,9 @@ Project has been moved to: **[ a static website](https://github.com/aaruljothi/s
 ### ~~Libraries & Tools~~
 
 * ~~This super nifty css animation [library](https://daneden.github.io/animate.css/)~~
-* ~~How to get that perfect [shadow](https://www.cssmatic.com/box-shadow)
-* Where I found my [color scheme](http://blog.visme.co/website-color-schemes/)
-* To keep the app awake: [kaffine](http://kaffeine.herokuapp.com/)~~
+* ~~How to get that perfect [shadow](https://www.cssmatic.com/box-shadow)~~
+* ~~Where I found my [color scheme](http://blog.visme.co/website-color-schemes/)~~
+* ~~To keep the app awake: [kaffine](http://kaffeine.herokuapp.com/)~~
 
 
 ### ~~Deployment~~
